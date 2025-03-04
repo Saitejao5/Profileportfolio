@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML</title>
+</head>
+<body>
+  <div class="container">
+    <button>HOME</button>
+    <button onclick="location.href='#about'">ABOUT ME</button>
+    <button onclick="location.href='#pro'">PROJECT</button>
+    <button onclick="location.href='#cont'">CONTACT</button>
+    
+  </div>
+<h4>Hello This Is</h4>
+<h1>Sai Kumar</h1>
+<h5>Designer & Developer </h5>
+  <h2 id="about">About Me</h2>
+<h6 class="para" >Proficient in prompt engineering, graphic design, digital marketing, and embedded systems. Passionate about AI
+and emerging technologies, with a strong aptitude for prompt engineering. Eager to leverage
+my technical background and innovative mindset to drive impactful projects and contribute to
+a fast-paced tech environment</h6>
+ <div class="tab-menu">
+        <button class="tab-button active" onclick="switchTab('skills', this)">Skills</button>
+        <button class="tab-button" onclick="switchTab('education', this)">Education</button>
+    </div>
+   <div id="skills" class="tab-content active">
+        <p>PYTHON </p>
+        <P>HTML</P>
+        <p>CSS</p>
+        <P>WEB DEVELOPMENT </P>
+        <P>SEO</P>
+        <p>CONTENT MARKETING </p>
+        
+        
+    </div>
+
+    <div id="education" class="tab-content">
+        <h6>B tech</h6>
+        <p>Completed Btech in electronics and communication engineering from PBR Vishvodhaya engineering college in 2023-2026</p>
+        <h6>Diploma</h6>
+        <p>completed diploma in electronics and communication engineering from GOVT polytechnic kalyandug in 2020-2023</p>
+        
+    </div>
+    <div class="head" id="cer">Certificates</div>
+<div class="boxes">
+  <button onclick="digi()">Digital Marketing</button>
+  <button onclick="tel()">NPTEL</button>
+  <button onclick="genai()">GEN AI</button>
+</div>
+<div id="pro" class="work">Projects
+</div>
+<div class="all">
+    <div class="project-card" style="background: url('blog.jpg')">
+      <h2>Educational Blog</h2>
+        <div class="overlay">
+            <p class="inside">Educational blog</p>
+            <p>click to visit the project</p>
+            <div onclick="window
+            location.href='here blog link'" class="icon">🔗</div>
+        </div>
+    </div>
+     <div class="project-card" style="background: url('hotel.jpg')">
+       <h2>Hotel Booking page </h2>
+        <div class="overlay">
+            <p class="inside1">Hotel Booking</p>
+            <p>click to visit the project</p>
+            <div onclick="window
+            location.href='https://github.com/Saitejao5/portfolio'" class="icon">🔗</div>
+        </div>
+    </div>
+     <div class="project-card" style="background: url('game.jpg')">
+       <h2>Chess Game</h2>
+        <div class="overlay">
+            <p class="inside2">Chess Game</p>
+            <p>click to visit the project</p>
+            <div onclick="window
+            location.href='heregame link'" class="icon">🔗</div>
+        </div>
+    </div>
+    </div>
+<nav>
+   <div id="cont" class="cont">Contact </nav>
+
+    </div>
+    <div class="mails">tsai3116@gmail.com</div>
+   
+    <h3>Follow Me</h3>
+    <div class="images">
+      <div class="imbox1">
+        <a href="https://github.com/Saitejao5/portfolio">
+          <img src="githublogo" alt="GitHub Logo" width="50">
+        </a>
+    
+      </div>
+      <div class="imbox2">
+      <a href=https://www.linkedin.com/in/sai-kumar-b301902a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app>
+          <img src="ldnlogo.jpg" alt="LinkedIn Logo" width="50">
+          
+          </a>
+      </div>
+    </div>
+   <div class="profile">
+    <img src="profile.jpg">
+   </div>
+  <script src="main.js">
+    
+  </script>
+</body>
+</html>
