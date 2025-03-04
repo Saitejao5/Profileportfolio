@@ -15,12 +15,12 @@ function switchTab(tabId, element) {
 }
 
 function genai() {
-window.open("genai.jpg");
+window.open("genai.pdf");
 // Tab to edit
 }
 
 function tel(){
-window.open("tel.jpg");
+window.open("tel.pdf");
 }
 
 function digi() {
