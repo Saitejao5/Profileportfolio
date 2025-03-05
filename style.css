@@ -65,7 +65,7 @@ margin-top:30%;
 color:white;
 
 text-align: center;
-margin-left: 10%;
+margin-left: 15%;
 
 }
 .tab-menu {
@@ -307,7 +307,7 @@ font-size:20px;
 }
 .profile {
 width:400px;
-height:700px;
+height:800px;
 background: white;
 flex-wrap: wrap;
 position:absolute;
