@@ -331,7 +331,7 @@ border-radius:5% ;
       overflow:hidden;
   }
   .overlay p {
-    color:black;
+    color:white;
   }
 
   .overlay {
@@ -363,7 +363,7 @@ border-radius:5% ;
       bottom: 0; /* Moves up on hover */
   }
   .project-card h2 {
-    color:white;
+    color:black;
     text-align:center;
     margin-top:25%;
 
