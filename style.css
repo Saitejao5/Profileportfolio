@@ -65,7 +65,7 @@ margin-top:30%;
 color:white;
 
 text-align: center;
-margin-left: 5%;
+margin-left: 10%;
 
 }
 .tab-menu {
@@ -307,7 +307,7 @@ font-size:20px;
 }
 .profile {
 width:400px;
-height:600px;
+height:700px;
 background: white;
 flex-wrap: wrap;
 position:absolute;
@@ -322,10 +322,10 @@ height:100%;
 border-radius:5% ;
 }
 .project-card {
-    
       position: relative;
       width: 250px;
       height: 200px;
+      background:white;
       flex-wrap:wrap;
       border-radius: 10px;
       overflow:hidden;
