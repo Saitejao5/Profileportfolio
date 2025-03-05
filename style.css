@@ -306,11 +306,12 @@ font-size:20px;
 }
 .profile {
 width:400px;
-height:900px;
+height:500px;
 background: white;
 flex-wrap: wrap;
 position:absolute;
-top:550px;
+top:900px;
+margin:100px;
 
 border-radius: 5%;
 
@@ -387,7 +388,7 @@ border-radius:5% ;
 
 @media screen and (max-width: 768px) {
 .container {
-    flex-direction: column; /* Stack buttons vertically */
+    flex-direction: row; /* Stack buttons vertically */
     align-items: center; /* Center align */
     gap: 10px;
 }
