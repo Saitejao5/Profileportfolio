@@ -1,71 +1,70 @@
 
-
 body {
-  background: black;
+    background: black;
 }
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-.container {
-  display: flex;
-  flex-direction: row; /* Buttons in a row */
-  justify-content: right; /* Centers buttons horizontally */
-  gap: 50px; /* Adds space between buttons */
- padding-top: 50px;
- flex-wrap:wrap;
- 
+.off-canvas {
+    display: flex;
+    flex-direction: row; /* Buttons in a row */
+    justify-content: right; /* Centers buttons horizontally */
+    gap: 50px; /* Adds space between buttons */
+   padding-top: 50px;
+   flex-wrap:wrap;
+   
 
 }
 
 
 
 
-.container button {
+.off-canvas button {
 width:100px;
 height:50px;
 }
 button {
-  align-items:center;
-  background: black;
-  color: white;
-  border-radius: 50px;
-  margin:2px;
-  border: 1px;
-  transition: all 0.3s ease-in-out;
-
+    align-items:center;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    margin:2px;
+    border: 1px;
+    transition: all 0.3s ease-in-out;
+ 
 }
 h4{
-color: white;
-padding: 0px 0px;
-margin-top: 10%;
-margin-right:100px;
-text-align:center;
+  color: white;
+  padding: 0px 0px;
+  margin-top: 10%;
+ margin-right:100px;
+  text-align:center;
 margin-bottom:5px
 }
 h1{
-color:white;
-margin-top:0px;
-text-align:center;
-margin-top:5px;
-margin-bottom:5px;
-color: rgb(92, 243, 87);
-
+  color:white;
+  margin-top:0px;
+  text-align:center;
+  margin-top:5px;
+  margin-bottom:5px;
+  color: rgb(92, 243, 87);
+  
 }
 h5 {
-color:white;
-margin:0px;
-padding-left: 150px;
-text-align:center;
-margin-bottom:5px;
+  color:white;
+  margin:0px;
+  padding-left: 150px;
+  text-align:center;
+  margin-bottom:5px;
 }
 h2 {
-margin-top:30%;
-
-color:white;
-
+  margin-top:30%;
+ 
+  color:white;
+ 
 text-align: center;
-margin-left: 15%;
+ margin-left: 5%;
 
 }
 .tab-menu {
@@ -110,13 +109,14 @@ transition: opacity 0.5s ease-in-out;
 padding-left:40%;
 justify-content:center;
 flex-wrap:wrap;
+margin-top:-10px;
 }
 
 .tab-content.active {
 display: block;
 }
 h6 {
-color:white;
+color: white;
 text-align: center;
 text-align: left;
 
@@ -169,7 +169,7 @@ margin:20px;
 width:270px;
 height:200px;
 }
-.container button:hover{
+.off-canvas button:hover{
 background:rgb(92, 243, 87);
 color:black;
 box-shadow:0px 10px 30px rgb(34, 248, 59);
@@ -307,7 +307,7 @@ font-size:20px;
 }
 .profile {
 width:400px;
-height:800px;
+height:600px;
 background: white;
 flex-wrap: wrap;
 position:absolute;
@@ -322,172 +322,241 @@ height:100%;
 border-radius:5% ;
 }
 .project-card {
-      position: relative;
-      width: 250px;
-      height: 200px;
-      background:white;
-      flex-wrap:wrap;
-      border-radius: 10px;
-      overflow:hidden;
-  }
-  .overlay p {
-    color:white;
-  }
-
-  .overlay {
-      position: absolute;
-      bottom: -100%; /* Start from bottom */
-     
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(to bottom, black, green); /* Black to red gradient */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      transition: bottom 0.3s ease-in-out;
-  }
-  .overlay .icon {
-      width: 40px;
-      height: 40px;
-      background: white;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 20px;
       
-  }
+        position: relative;
+        width: 250px;
+        height: 200px;
+        background: white ;
+        flex-wrap:wrap;
+        border-radius: 10px;
+        overflow:hidden;
+    }
+    .overlay p {
+      color:white;
+    }
 
-  .project-card:hover .overlay {
-      bottom: 0; /* Moves up on hover */
-  }
-  .project-card h2 {
-    color:black;
-    text-align:center;
-    margin-top:25%;
+    .overlay {
+        position: absolute;
+        bottom: -100%; /* Start from bottom */
+       
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, black, green); /* Black to red gradient */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: bottom 0.3s ease-in-out;
+    }
+    .overlay .icon {
+        width: 40px;
+        height: 40px;
+        background: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        
+    }
 
-  }
-  .overlay h5{
-    color:white;
-    display:flex;
-    
-    
- 
-  }
-  .inside, .inside1, .inside2 {
-    margin-bottom:-10px;
-    font-size:25px;
-    
+    .project-card:hover .overlay {
+        bottom: 0; /* Moves up on hover */
+    }
+    .project-card h2 {
+      text-align:center;
+      margin-top:25%;
+      color: black;
 
+    }
+    .overlay h5{
+      color:white;
+      display:flex;
+     
+      
+   
+    }
+    .inside, .inside1, .inside2 {
+      margin-bottom:-10px;
+      font-size:25px;
+      
+
+      
+    }
+    .all {
+      justify-content:center;
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+    }
     
-  }
-  .all {
-    justify-content:center;
-    display:flex;
-    gap:20px;
-    flex-wrap:wrap;
-  }
 
 @media screen and (max-width: 768px) {
 .container {
-  flex-direction: column; /* Stack buttons vertically */
-  align-items: center; /* Center align */
-  gap: 10px;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center align */
+    gap: 10px;
 }
 
 .container button {
-  width: 50%; /* Make buttons full width */
-  max-width: 300px;
+    width: 50%; /* Make buttons full width */
+    max-width: 300px;
 }
 
 .tab-menu {
-  flex-direction: row; /* Stack menu items */
-  align-items: center;
-  padding-left: 0;
+    flex-direction: row; /* Stack menu items */
+    align-items: center;
+    padding-left: 0;
 }
 
 .tab-content {
-  width: 90%; /* Make it wider */
-  padding: 0px;
+    width: 90%; /* Make it wider */
+    padding: 0px;
 }
 .tab-content active {
-display:flex;
+  display:flex;
 }
 p {
-justify-content:center;
-align-items:center;
-text-align: left;
-margin-left:-100px;
-
+  justify-content:center;
+  align-items:center;
+  text-align: left;
+  margin-left:-100px;
+  
 
 }
 
 h1, h2, h6 {
-  text-align: center;
-  padding: 5px;
-  margin: auto;
-  margin-top:-5px;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    margin-top:-5px;
 }
 h4 {
-
-margin-top:10%;
-margin-bottom:-5px;
+  
+  margin-top:10%;
+  margin-bottom:-5px;
 }
 h5 {
-margin-top:-5px;
-margin-bottom:150%;
+  margin-top:-5px;
+  margin-bottom:150%;
 }
 
 .boxes, .pro-container, .images {
-  flex-direction: column; /* Stack elements */
-  align-items: center;
+    flex-direction: column; /* Stack elements */
+    align-items: center;
 }
 
 .probox {
-  flex-direction: column;
-  align-items:center;
-  margin:40px;
+    flex-direction: column;
+    align-items:center;
+    margin:40px;
 }
 
 .profile {
-  width: 90%;
-  height: 60%;
-  position: static;
-  margin: auto;
-  position: absolute;
-  top:65%;
-  
+    width: 90%;
+    height: 60%;
+    position: static;
+    margin: auto;
+    position: absolute;
+    top:20%;
+    
 }
 
 .imagebox {
-  width: 90%;
-  height: auto;
-  position: static;
-  margin: auto;
+    width: 90%;
+    height: auto;
+    position: static;
+    margin: auto;
 }
 .head {
 
-margin-top:50%;
+  margin-top:50%;
 }
 .work {
-margin-bottom:20%;
+  margin-bottom:20%;
 }
 .imbox1 {
 
 }
 .images {
-flex-direction:row;
+  flex-direction:row;
 }
 .boxes button {
-background:white;
-color:black;
+  background:white;
+  color:black;
 }
-.overlay h5,p {
-    color:white;
-    margin:10px auto;
-   
- 
-  }
-  
+.overlay h5 {
+      color:white;
+      margin:10px auto;
+    }
+    .overlay p {
+      color:white;
+      justify-content:center;
+      margin:0px auto;
+    }
+    .menu-btn {
+        position: absolute;
+        top: 20px;
+        right:0px;
+        width: 40px;
+        height: 40px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 2001;
+    }
 
+    .menu-btn div {
+        width: 35px;
+        height: 3px;
+        background: white;
+        border-radius: 2px;
+        transition: 0.3s;
+    }
+
+    /* Off-Canvas Menu (Initially Hidden) */
+    .off-canvas {
+        position: fixed;
+        top: 0;
+        right: -1000px; /* Hidden by default */
+        width: 250px;
+        height: 100%;
+        background: black;
+        color: white;
+        display: flex;
+flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: right 0.4s ease-in-out;
+        z-index: 1000;
+        box-shadow: -3px 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .off-canvas a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+       
+        padding: 1px;
+        transition: 0s;
+    }
+
+    /* Show the menu when it's active */
+    .off-canvas.active {
+        right:0;
+    }
+           .menu-btn.active div:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-btn.active div:nth-child(2) {
+        opacity: 0; /* Hide middle bar */
+    }
+
+    .menu-btn.active div:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -6px);
+    }
+}
