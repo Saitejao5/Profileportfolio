@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,13 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>HTML</title>
 
-  <title>Portfolio</title>
+  <!-- Custom Styles -->
  
 </head>
 <body>
+ <button class="menu-btn" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </button>
 
-  <div class="container">
+  <div class="off-canvas">
     <button>HOME</button>
     <button onclick="location.href='#about'">ABOUT ME</button>
     <button onclick="location.href='#pro'">PROJECT</button>
@@ -32,12 +40,13 @@ a fast-paced tech environment</h6>
         <button class="tab-button" onclick="switchTab('education', this)">Education</button>
     </div>
    <div id="skills" class="tab-content active">
+     <p>C programming </p>
         <p>PYTHON </p>
-        <P>HTML</P>
-        <p>CSS</p>
         <P>WEB DEVELOPMENT </P>
         <P>SEO</P>
         <p>CONTENT MARKETING </p>
+        <p>Figma(software)</p>
+        
         
         
     </div>
@@ -58,13 +67,13 @@ a fast-paced tech environment</h6>
 <div id="pro" class="work">Projects
 </div>
 <div class="all">
-    <div class="project-card" >
+    <div class="project-card">
       <h2>Educational Blog</h2>
         <div class="overlay">
             <p class="inside">Educational blog</p>
             <p>click to visit the project</p>
             <div onclick="window
-            location.href='https://saitejao5.github.io/tech/'" class="icon">🔗</div>
+            location.href='here blog link'" class="icon">🔗</div>
         </div>
     </div>
      <div class="project-card" >
@@ -73,10 +82,10 @@ a fast-paced tech environment</h6>
             <p class="inside1">Hotel Booking</p>
             <p>click to visit the project</p>
             <div onclick="window
-            location.href='https://saitejao5.github.io/booking/'" class="icon">🔗</div>
+            location.href='https://github.com/Saitejao5/portfolio'" class="icon">🔗</div>
         </div>
     </div>
-     <div class="project-card" >
+     <div class="project-card">
        <h2>Chess Game</h2>
         <div class="overlay">
             <p class="inside2">Chess Game</p>
@@ -95,14 +104,14 @@ a fast-paced tech environment</h6>
     <h3>Follow Me</h3>
     <div class="images">
       <div class="imbox1">
-        <a href="https://github.com/dashboard">
-          <img src="logo.jpg"  alt="GitHub Logo" width="50">
+        <a href="https://github.com/Saitejao5/portfolio">
+          <img src="githublogo" alt="GitHub Logo" width="50">
         </a>
     
       </div>
       <div class="imbox2">
       <a href=https://www.linkedin.com/in/sai-kumar-b301902a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app>
-          <img src="ldnlogo.jpg" alt="LinkedIn Logo" width="50">
+        <img src="ldnlogo" alt="GitHub Logo" width="50">
           
           </a>
       </div>
@@ -113,12 +122,9 @@ a fast-paced tech environment</h6>
 
 
 
-
-
-  <script src="main.js">
-    
-  </script>
+  <script src="main.js"></script>
 </body>
 </html>
+
 
 
