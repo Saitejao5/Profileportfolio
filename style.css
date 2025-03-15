@@ -393,24 +393,24 @@ border-radius:5% ;
 
 @media screen and (max-width: 768px) {
 .container {
-    flex-direction: column; /* Stack buttons vertically */
-    align-items: center; /* Center align */
+    flex-direction: column; 
+    align-items: center; 
     gap: 10px;
 }
 
 .container button {
-    width: 50%; /* Make buttons full width */
+    width: 50%; 
     max-width: 300px;
 }
 
 .tab-menu {
-    flex-direction: row; /* Stack menu items */
+    flex-direction: row; 
     align-items: center;
     padding-left: 0;
 }
 
 .tab-content {
-    width: 90%; /* Make it wider */
+    width: 90%;
     padding: 0px;
 }
 .tab-content active {
@@ -442,7 +442,7 @@ h5 {
 }
 
 .boxes, .pro-container, .images {
-    flex-direction: column; /* Stack elements */
+    flex-direction: column; 
     align-items: center;
 }
 
@@ -517,11 +517,11 @@ h5 {
         transition: 0.3s;
     }
 
-    /* Off-Canvas Menu (Initially Hidden) */
+   
     .off-canvas {
         position: fixed;
         top: 0;
-        right: -1000px; /* Hidden by default */
+        right: -1000px; 
         width: 250px;
         height: 100%;
         background: black;
@@ -544,7 +544,7 @@ flex-direction: column;
         transition: 0s;
     }
 
-    /* Show the menu when it's active */
+   
     .off-canvas.active {
         right:0;
     }
@@ -553,7 +553,7 @@ flex-direction: column;
     }
 
     .menu-btn.active div:nth-child(2) {
-        opacity: 0; /* Hide middle bar */
+        opacity: 0; 
     }
 
     .menu-btn.active div:nth-child(3) {
