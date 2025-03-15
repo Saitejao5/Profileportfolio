@@ -64,7 +64,7 @@ h2 {
   color:white;
  
 text-align: center;
- margin-left: 5%;
+ margin-left: 10%;
 
 }
 .tab-menu {
@@ -117,9 +117,7 @@ display: block;
 }
 h6 {
 color: white;
-text-align: center;
-text-align: left;
-
+text-align: justify;
 padding-left: 45%;
 flex-wrap:wrap;
 font-size: larger;
@@ -425,11 +423,14 @@ p {
 
 }
 
-h1, h2, h6 {
+h1, h2 {
     text-align: center;
     padding: 5px;
     margin: auto;
     margin-top:-5px;
+}
+h6 {
+      text-align: justify;
 }
 h4 {
   
